@@ -1,0 +1,128 @@
+body {
+    background-color: LightGray;
+  }
+  
+h1,h2 {
+    color: white;
+    text-align: center;
+    background-color: Gray;
+  }
+  
+.center {
+    color: red;
+    text-align: center;
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+.right {
+  text-align: right
+}
+
+.left {
+  text-align: left;
+  font-size: 20px;
+  background-color:red;
+}
+
+#About {
+    color: black;
+}
+
+
+#hammer {
+    background-image: url("hammer.gif");
+}
+
+#books {
+    background-image: url("reading.gif");
+}
+
+
+#books {
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 200px 150px;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* visited link */
+a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+a:active {
+    color: blue;
+    text-decoration: underline;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+  }
+  
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+li:last-child {
+    border-bottom: none;
+  }
+
+#mathq {
+  background-color: red;
+}
+
+.backstory {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.btn-toolbar {
+  position: fixed;
+  left: 25%;
+  bottom:0px;
+}
+
+
+
